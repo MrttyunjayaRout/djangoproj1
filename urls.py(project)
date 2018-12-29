@@ -1,0 +1,2 @@
+from django.conf.urls import include,url
+url(r'^appname/',include('appname.urls')),
